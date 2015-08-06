@@ -158,7 +158,7 @@ public class YeOldeChesttes {
             setBlockBounds(0, 0, 0, 1, 1, 1);
         }
 
-        IIcon front, side, top;
+        IIcon front, side, top, bottom;
 
         @Override
         public void registerBlockIcons(IIconRegister reg) {
@@ -166,11 +166,13 @@ public class YeOldeChesttes {
             front = reg.registerIcon(D + textureName + "_front");
             side = reg.registerIcon(D + textureName + "_side");
             top = reg.registerIcon(D + textureName + "_top");
+            bottom = reg.registerIcon(D + textureName + "_bottom");
         }
 
         @Override
         public IIcon getIcon(int side, int md) {
-            if (side == 0 || side == 1) return top;
+            if (side == 0) return bottom;
+            if (side == 1) return top;
             int face = md2side(md);
             if (side == face) return front;
             return this.side;
