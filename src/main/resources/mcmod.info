@@ -1,0 +1,16 @@
+[
+{
+  "modid": "yeoldechestte",
+  "name": "Ye Olde Chesttes",
+  "description": "Chests the way they used to be",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["neptunepink"],
+  "credits": "Notch, for that lovely chest texture",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
