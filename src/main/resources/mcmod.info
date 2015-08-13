@@ -9,7 +9,7 @@
   "updateUrl": "",
   "authorList": ["neptunepink"],
   "credits": "Notch, for that lovely chest texture",
-  "logoFile": "oldchests/textures/blocks/old_ender_chest_front.png",
+  "logoFile": "resources/oldchests/textures/blocks/old_ender_chest_front.png",
   "screenshots": [],
   "dependencies": []
 }
