@@ -17,5 +17,9 @@ The enderchest could possibly use a better texture.
 There's a seam on the top of double-chests because I'm pretty sure how it worked back then.
 
 License: MIT
+Modpacks: Yes
+
+[Download](https://dl.dropboxusercontent.com/u/76265666/cyclopeanchests-1.0.jar)
 
 [MCF forum thread](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2501662-)
+
