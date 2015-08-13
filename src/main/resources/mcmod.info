@@ -2,9 +2,9 @@
 {
   "modid": "oldchests",
   "name": "Cyclopean Chests",
-  "description": "Chests the way they used to be",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
+  "description": "Chests, the way they used to be.",
+  "version": "1.0",
+  "mcversion": "1.7.10",
   "url": "",
   "updateUrl": "",
   "authorList": ["neptunepink"],
