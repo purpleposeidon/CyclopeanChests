@@ -27,3 +27,9 @@ minecraft {
 }
 
 
+jar {
+    manifest {
+        attributes("FMLCorePlugin": "io.github.purpleposeidon.oldchests.asm.OldChestLoadingPlugin",
+                   "FMLCorePluginContainsFMLMod": "true")
+    }   
+}
