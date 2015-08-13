@@ -2,6 +2,7 @@ package io.github.purpleposeidon.oldchests;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.block.Block;
 import net.minecraft.block.BlockChest;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.tileentity.TileEntity;
@@ -93,5 +94,27 @@ public class ChestReplacement extends BlockChest {
     @Override
     public int getRenderType() {
         return 0;
+    }
+
+    //... So, this is stupid. java.lang.NoSuchMethodError: io.github.purpleposeidon.oldchests.ChestReplacement.c(F)Lnet/minecraft/block/Block;
+
+    public Block c(float hardness) {
+        return setHardness(hardness);
+    }
+
+    public Block a(SoundType sound) {
+        return setStepSound(sound);
+    }
+
+    public Block c(String name) {
+        return setBlockName(name);
+    }
+
+    public Block b(float resistance) {
+        return setResistance(resistance);
+    }
+
+    public Block a(float lightLevel) {
+        return setLightLevel(lightLevel);
     }
 }
