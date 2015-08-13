@@ -1,7 +1,7 @@
 [
 {
-  "modid": "yeoldechestte",
-  "name": "Ye Olde Chesttes",
+  "modid": "oldchests",
+  "name": "Cyclopean Chests",
   "description": "Chests the way they used to be",
   "version": "${version}",
   "mcversion": "${mcversion}",
@@ -9,7 +9,7 @@
   "updateUrl": "",
   "authorList": ["neptunepink"],
   "credits": "Notch, for that lovely chest texture",
-  "logoFile": "",
+  "logoFile": "oldchests/textures/blocks/old_ender_chest_front.png",
   "screenshots": [],
   "dependencies": []
 }

@@ -33,13 +33,13 @@ public class ChestReplacement extends BlockChest {
     @Override
     @SideOnly(Side.CLIENT)
     public void registerBlockIcons(IIconRegister reg) {
-        front = reg.registerIcon(YeOldeChesttes.D + textureName + "_front");
-        side = reg.registerIcon(YeOldeChesttes.D + textureName + "_side");
-        top = reg.registerIcon(YeOldeChesttes.D + textureName + "_top");
-        front_left = reg.registerIcon(YeOldeChesttes.D + textureName + "_front_left");
-        front_right = reg.registerIcon(YeOldeChesttes.D + textureName + "_front_right");
-        back_left = reg.registerIcon(YeOldeChesttes.D + textureName + "_back_left");
-        back_right = reg.registerIcon(YeOldeChesttes.D + textureName + "_back_right");
+        front = reg.registerIcon(YeOldeChesttes.TEXTURE + textureName + "_front");
+        side = reg.registerIcon(YeOldeChesttes.TEXTURE + textureName + "_side");
+        top = reg.registerIcon(YeOldeChesttes.TEXTURE + textureName + "_top");
+        front_left = reg.registerIcon(YeOldeChesttes.TEXTURE + textureName + "_front_left");
+        front_right = reg.registerIcon(YeOldeChesttes.TEXTURE + textureName + "_front_right");
+        back_left = reg.registerIcon(YeOldeChesttes.TEXTURE + textureName + "_back_left");
+        back_right = reg.registerIcon(YeOldeChesttes.TEXTURE + textureName + "_back_right");
     }
 
     @Override

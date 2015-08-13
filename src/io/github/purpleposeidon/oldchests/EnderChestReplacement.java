@@ -24,10 +24,10 @@ public class EnderChestReplacement extends BlockEnderChest {
     @Override
     @SideOnly(Side.CLIENT)
     public void registerBlockIcons(IIconRegister reg) {
-        front = reg.registerIcon(YeOldeChesttes.D + textureName + "_front");
-        side = reg.registerIcon(YeOldeChesttes.D + textureName + "_side");
-        top = reg.registerIcon(YeOldeChesttes.D + textureName + "_top");
-        bottom = reg.registerIcon(YeOldeChesttes.D + textureName + "_bottom");
+        front = reg.registerIcon(YeOldeChesttes.TEXTURE + textureName + "_front");
+        side = reg.registerIcon(YeOldeChesttes.TEXTURE + textureName + "_side");
+        top = reg.registerIcon(YeOldeChesttes.TEXTURE + textureName + "_top");
+        bottom = reg.registerIcon(YeOldeChesttes.TEXTURE + textureName + "_bottom");
     }
 
     @Override

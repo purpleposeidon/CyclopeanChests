@@ -13,6 +13,7 @@ public class TransformChests implements IClassTransformer {
         if (!transformedName.equals("net.minecraft.block.Block")) {
             return basicClass;
         }
+        // TODO: Use the visitor pattern instead; also have FML use visitors instead of byte[].
         ClassReader cr = new ClassReader(basicClass);
         ClassNode cn = new ClassNode();
         cr.accept(cn, 0);

@@ -12,17 +12,16 @@ import net.minecraft.tileentity.TileEntity;
 
 import java.util.ArrayList;
 
-@Mod(modid = YeOldeChesttes.MODID)
+@Mod(modid = YeOldeChesttes.MODID, name = "Cyclopean Chests", version = "1.0")
 public class YeOldeChesttes {
     public static final String MODID = "oldchests";
-    public static final String D = MODID + ":";
+    public static final String TEXTURE = MODID + ":"; // TODO: Christmas textures
 
     public static final ArrayList<Block> chest_blocks = new ArrayList<Block>();
 
-    @Mod.EventHandler
-    public void verifyLoad(FMLPreInitializationEvent event) {
+    {
         if (!OldChestLoadingPlugin.loaded_properly) {
-            throw new RuntimeException("Coremod wasn't loaded");
+            throw new RuntimeException("Coremod didn't load");
         }
     }
 
@@ -30,7 +29,6 @@ public class YeOldeChesttes {
     @SideOnly(Side.CLIENT)
     public void initClient(FMLPreInitializationEvent event) {
         for (Block b : chest_blocks) {
-            if (!(b instanceof BlockContainer)) continue;
             BlockContainer chest = (BlockContainer) b;
             TileEntity te = chest.createNewTileEntity(null, 0);
             if (te == null) continue;
