@@ -22,5 +22,5 @@ Modpacks: Yes
 
 [Download](https://dl.dropboxusercontent.com/u/76265666/cyclopeanchests-1.0.jar)
 
-[MCF forum thread](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2501662-)
+[MCF forum thread](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2501662)
 
